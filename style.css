@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEFF1; 
+}
+
+h1{
+    font-family:'Courier New';
+    font-size: 35px;
+}
+
+h2{
+    font-family:'Courier New';
+    font-size: 30px;
+}
+
+p{
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a{
+    font-family:'Franklin Gothic Medium';
+}
+
+header{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #f5bc52;
+    width: 1200px;
+}
+
+/*Стиль для иконки в верхней части страницы*/
+.icon_image{
+    width: 100px;
+    height: 80px;
+}
+
+/*Заголовок в шапке страницы*/
+header h1{
+    position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: inherit;
+}
+
+/*Меню в шапке страницы*/
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    margin-right: 50px;
+    background-color: inherit   ;
+}
+
+nav ul{
+    list-style: none;
+    background-color: inherit;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    width: 120px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    width: 120px;
+    font-size: 17px;
+    background-color: #f8aa1b;
+}
+
+/*Главная часть первой страницы включает задний фон, текст и кнопку*/
+.main_index{
+    position: relative;
+    margin-left: 10px;
+    background-image: url("images/main_dog.png");
+    width: 1200px;
+    height: 600px;
+}
+
+.main_index h2{
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    margin-left: 10px;
+}
+
+.main_index button{
+    position: absolute;
+    top: 205px;
+    height: 25px;
+    width: 100px;
+    margin-left: 270px;
+    font-family:'Franklin Gothic Medium';
+    background-color: #242227;
+    color: #f8aa1b;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.main_index button:hover{
+    background-color: #EEEFF1;
+    border: 0px;
+}
+
+.main_index p{
+    background-color: transparent;
+    position: absolute;
+    top: 250px;
+    width: 450px;
+    margin-left: 10px;
+}
+
+footer{
+    position: relative;
+    width: 1200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    background-color: #f5bc52;
+}
+.email_footer{  
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 0px;
+}
