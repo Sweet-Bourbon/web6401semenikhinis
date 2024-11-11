@@ -24,6 +24,11 @@ a{
     font-family:'Franklin Gothic Medium';
 }
 
+a:hover{
+    background-color: #EEEFF1;
+    border: 0px;
+}
+
 td{
     padding: 10px;
 }
