@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEFF1; 
+}
+
+h1{
+    font-family:'Courier New';
+    font-size: 35px;
+}
+
+h2{
+    font-family:'Courier New';
+    font-size: 30px;
+}
+
+p{
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a{
+    font-family:'Franklin Gothic Medium';
+}
+
+a:hover{
+    background-color: #EEEFF1;
+    border: 0px;
+}
+
+td{
+    padding: 10px;
+}
+header{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #f5bc52;
+    width: 1200px;
+}
+
+/*Стиль для иконки в верхней части страницы*/
+.icon_image{
+    width: 100px;
+    height: 80px;
+}
+
+/*Заголовок в шапке страницы*/
+header h1{
+    position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: inherit;
+}
+
+/*Меню в шапке страницы*/
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    margin-right: 50px;
+    background-color: inherit   ;
+}
+
+nav ul{
+    list-style: none;
+    background-color: inherit;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    width: 120px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    width: 120px;
+    font-size: 17px;
+    background-color: #f8aa1b;
+}
+
+footer{
+    position: relative;
+    width: 1200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    background-color: #f5bc52;
+}
+.email_footer{  
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 0px;
+}
