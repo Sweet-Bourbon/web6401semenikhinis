@@ -5,6 +5,7 @@
         <title>Дом надежды - дом для животных</title>
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/index.css">
+        <script src="js/index_event_form.js"></script>
     </head>
     <body>
         <header> <!--Шапка страницы с иконкой, названием и ссылками-->
@@ -28,20 +29,20 @@
                 Мы верим, что каждое животное заслуживает любви и внимания, 
                 и мы делаем все возможное, чтобы обеспечить им комфортную и безопасную жизнь.</p>
             <h3>Свяжитесь с нами</h3>
-            <form method="post">
+            <form class="form" method="post">
                 <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
     
                 <label for="email">Электронная почта:</label>
-                <input type="email" id="email" name="email" placeholder="Введите вашу почту" required>
+                <input type="email" id="email" name="email" placeholder="Введите вашу почту">
                     
                 <label for="message">Сообщение:</label>
-                <textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+                <textarea id="message" name="message" placeholder="Введите ваше сообщение"></textarea>
                 <br>
                 <button type="submit">Отправить</button>
             </form>
         </main>
-
+        
         <footer>
             <p>&copy; 2024 Семенихин Илья 
                 <br>(сайт сделан в рамках учебного проекта по дисциплине "Web-программирование")</p>

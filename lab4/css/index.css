@@ -58,3 +58,10 @@
     top: 40px;
     margin-left: 0px;
 }
+
+.main_index h3{
+    background-color: transparent;
+    position: absolute;
+    top: 490px;
+    margin-left: 10px;
+}
