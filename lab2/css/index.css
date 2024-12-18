@@ -1,0 +1,43 @@
+/*Главная часть первой страницы включает задний фон, текст и кнопку*/
+.main_index{
+    position: relative;
+    margin-left: 10px;
+    background-image: url("../images/main_dog.png");
+    width: 1200px;
+    height: 600px;
+}
+
+.main_index h2{
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    margin-left: 10px;
+}
+
+.main_index button{
+    position: absolute;
+    top: 205px;
+    height: 25px;
+    width: 100px;
+    margin-left: 270px;
+    font-family:'Franklin Gothic Medium';
+    background-color: #242227;
+    color: #f8aa1b;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.main_index button:hover{
+    background-color: #EEEFF1;
+    border: 0px;
+}
+
+.main_index p{
+    background-color: transparent;
+    position: absolute;
+    top: 250px;
+    width: 450px;
+    margin-left: 10px;
+}
