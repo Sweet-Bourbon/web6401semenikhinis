@@ -20,43 +20,19 @@
         </header>
 
         <main>
-            <table>
-                <tr>
-                    <th>Фото</th>
-                    <th>Имя</th>
-                    <th>Вид</th>
-                    <th>Возраст</th>
-                    <th>Описание</th>
-                </tr>
-
-                <tr>
-                    <td><img src="images/cat1.png" alt="Кот1"></img></td>
-                    <td>Барсик</td>
-                    <td>Дворовый кот</td>
-                    <td>3 года</td>
-                    <td class="description">Барсик - это очаровательный 3-летний кот, 
-                        который ищет любящую семью. Он ласковый и игривый, 
-                        любит проводить время в компании людей.</td>
-                </tr>
-                
-                <tr>
-                    <td><img src="images/cat2.png" alt="Кот1"></img></td>
-                    <td>Арсений</td>
-                    <td>Шотландский веслоухий</td>
-                    <td>6 лет</td>
-                    <td class="description">Арсений -  это 6-летний кот с независимым характером, 
-                        который ищет спокойный и тихий дом, где его будут уважать и ценить.</td>
-                </tr>
-
-                <tr>
-                    <td><img src="images/cat3.png" alt="Кот1"></img></td>
-                    <td>Мурка</td>
-                    <td>Египетская кошка</td>
-                    <td>12 лет</td>
-                    <td class="description">Мурка - это воплощение грации и элегантности.
-                        В свои 12 лет Мурка сохранила игривый характер и любопытство молодости.
-                    </td>
-                </tr>
+            <button id="load_table_button">Загрузить данные</button>
+            <table id="main_table">
+                <thead>
+                    <tr>
+                        <th>Фото</th>
+                        <th>Имя</th>
+                        <th>Вид</th>
+                        <th>Возраст</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
             </table>
         </main>
 
@@ -65,5 +41,6 @@
                 <br>(сайт сделан в рамках учебного проекта по дисциплине "Web-программирование")</p>
             <p class="email_footer">email: ily41ilya1@yandex.ru</p>
         </footer>
+    <script src="js/load_data_cats.js"></script>
     </body>
 </html>

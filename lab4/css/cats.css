@@ -14,7 +14,7 @@ body {
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    align-items: first baseline;
+    align-items: center;
     background-color: #f5bc52;
     width: 1200px;
 }
@@ -59,17 +59,32 @@ nav a:hover {
 main {
     display: grid;
     width: 1200px;
-    height: 800px;
+    height: auto;
     background-color: #f8aa1b;
     font-size: 18px;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto; /* Кнопка и таблица */
     grid-template-columns: 1fr;
+    gap: 20px; /* Расстояние между кнопкой и таблицей */
+    padding: 20px 0;
+}
+
+#load_table_button {
+    width: 200px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #242227;
+    color: #f8aa1b;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-self: center; /* Центрирование кнопки */
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    text-align: first baseline;
+    text-align: left;
 }
 
 th, td {
@@ -91,9 +106,10 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    align-items:first baseline;
+    align-items: center;
     background-color: #f5bc52;
     width: 1200px;
+    padding: 10px 0;
 }
 
 footer p {
