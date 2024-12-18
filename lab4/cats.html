@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Кошки</title>
+        <link rel="stylesheet" href="css/cats.css">
+    </head>
+    <body>
+        <header> <!--Шапка страницы с иконкой, названием и ссылками-->
+            <img src="images/icon_main.png" alt="Иконка приюта" class="icon_image">
+            <h1>Дом надежды <br>приют для животных</h1>
+            <nav>
+                <ul>
+                    <li><a href="../lab4/index.html">Главная</a></li>
+                    <li><a href="../lab4/about_us.html">О нас</a></li>
+                    <li><a href="../lab4/cats.html">Кошки</a></li>
+                    <li><a href="../lab4/dogs.html">Собаки</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <button id="load_table_button">Загрузить данные</button>
+            <table id="main_table">
+                <thead>
+                    <tr>
+                        <th>Фото</th>
+                        <th>Имя</th>
+                        <th>Вид</th>
+                        <th>Возраст</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Семенихин Илья 
+                <br>(сайт сделан в рамках учебного проекта по дисциплине "Web-программирование")</p>
+            <p class="email_footer">email: ily41ilya1@yandex.ru</p>
+        </footer>
+    <script src="js/load_data_cats.js"></script>
+    </body>
+</html>

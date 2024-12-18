@@ -1,0 +1,34 @@
+/*Главная часть для страницы "О нас"*/
+.main_about_us{
+    margin-left: 10px;
+    height: 600px;
+    width: 1200px;
+    position: relative;
+    background-color: #f5bc52;
+}
+
+.main_about_us h2{
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+}
+
+.main_about_us p{
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+}
+
+.main_about_us table{
+    background-color: transparent;
+    width: 1200px;
+    position: absolute;
+    top: 320px;
+    text-align: left;
+}
+
+.main_about_us td{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    background-color: #f5bc52;
+}

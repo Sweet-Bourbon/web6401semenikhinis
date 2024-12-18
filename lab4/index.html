@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Дом надежды - дом для животных</title>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/index_event_form.js"></script>
+    </head>
+    <body>
+        <header> <!--Шапка страницы с иконкой, названием и ссылками-->
+            <img src="images/icon_main.png" alt="Иконка приюта" class="icon_image">
+            <h1>Дом надежды <br>приют для животных</h1>
+            <nav>
+                <ul>
+                    <li><a href="../lab4/index.html">Главная</a></li>
+                    <li><a href="../lab4/about_us.html">О нас</a></li>
+                    <li><a href="../lab4/cats.html">Кошки</a></li>
+                    <li><a href="../lab4/dogs.html">Собаки</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main_index"> <!--Главная часть страницы-->
+            <h2>Найди друга!</h2>
+            <button>Найти</button>
+            <p>Дом надежды  - это не просто приют для животных,
+                это место, где каждый питомец найдет свой дом, свою семью и заботу.
+                Мы верим, что каждое животное заслуживает любви и внимания, 
+                и мы делаем все возможное, чтобы обеспечить им комфортную и безопасную жизнь.</p>
+            <h3>Свяжитесь с нами</h3>
+            <form class="form" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+    
+                <label for="email">Электронная почта:</label>
+                <input id="email" name="email" placeholder="Введите вашу почту">
+                    
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Введите ваше сообщение"></textarea>
+                <br>
+                <button type="submit">Отправить</button>
+            </form>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Семенихин Илья 
+                <br>(сайт сделан в рамках учебного проекта по дисциплине "Web-программирование")</p>
+            <p class="email_footer">email: ily41ilya1@yandex.ru</p>
+        </footer>
+    </body>
+</html>
